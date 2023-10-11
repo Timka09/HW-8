@@ -1,0 +1,23 @@
+/* task1 */
+#greycol{
+    color: grey;
+}
+.yellow{
+    color: yellow;
+}
+div>div>p{
+    color: red;
+}
+div+h3+p{
+    color: green;
+}
+h3:first-child{
+    color: pink;
+}
+/* task2 */
+.pn:first-child:hover {
+    color: red;
+}
+.pt:last-child:link {
+    color: aqua;
+}
