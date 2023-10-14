@@ -18,6 +18,20 @@ h3:first-child{
 .pn:first-child:hover {
     color: red;
 }
-.pt:last-child:link {
+.pt:nth-child(odd):disabled {
     color: aqua;
 }
+.pt:nth-child(odd):hover:active {
+    color: aqua;
+}
+.sr:nth-child(3n):hover{
+    color: purple
+}
+
+.cht:nth-child(-n+4):hover{
+    color: lawngreen;
+}
+.vt:nth-child(n+2):hover{
+    color: yellow;
+}
+
